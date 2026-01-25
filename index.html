@@ -5,14 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Adi | Personal Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
+    /* Light blue background */
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      line-height: 1.6;
+
+      /* NEW: light blue background */
+      background: #eaf4ff;
+    }
+
     .header { margin-bottom: 24px; }
-    .pill { display: inline-block; padding: 6px 10px; border: 1px solid #ddd; border-radius: 999px; margin: 4px 6px 0 0; font-size: 14px; }
-    .card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 16px; margin: 16px 0; }
+
+    /* Make pills stand out a bit more */
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border: 1px solid #b9dcff;
+      border-radius: 999px;
+      margin: 4px 6px 0 0;
+      font-size: 14px;
+
+      /* NEW */
+      background: #ffffff;
+      color: #0b3d74;
+    }
+
+    /* Cleaner card on blue background */
+    .card {
+      border: 1px solid #cfe6ff;
+      border-radius: 14px;
+      padding: 16px;
+      margin: 16px 0;
+
+      /* NEW */
+      background: #ffffff;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    }
+
     .title { margin: 0 0 6px 0; }
+
     .meta { color: #555; margin: 0 0 10px 0; }
-    a { text-decoration: none; }
+
+    a { text-decoration: none; color: #0b66c3; }
     a:hover { text-decoration: underline; }
+
     .links a { margin-right: 12px; }
   </style>
 </head>
@@ -37,9 +76,11 @@
       <a href="mailto:YOUREMAIL@gmail.com">Email</a>
     </div>
   </div>
+
   <h2>Introduction</h2>
-    <p>
-        Hello! I'm Adi. I do some exciting work in credit strategy and portfolio analytics in  my day job however I cant show much of it here .Instead , Ive built this website to showcase some of my personal projects. Feel free to explore my projects and reach out if you'd like to connect! 
+  <p>
+    Hello! I'm Adi. I do some exciting work in credit strategy and portfolio analytics in my day job however I cant show much of it here. Instead, Ive built this website to showcase some of my personal projects. Feel free to explore my projects and reach out if you'd like to connect!
+  </p>
 
   <h2>Projects</h2>
 
@@ -56,8 +97,6 @@
     </div>
   </div>
 
- x
-
   <p style="margin-top: 28px; color:#666;">
     Last updated: <span id="date"></span>
   </p>
@@ -67,3 +106,4 @@
   </script>
 </body>
 </html>
+
