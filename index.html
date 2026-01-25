@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adi | Credit & Risk Analytics</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
+    .header { margin-bottom: 24px; }
+    .pill { display: inline-block; padding: 6px 10px; border: 1px solid #ddd; border-radius: 999px; margin: 4px 6px 0 0; font-size: 14px; }
+    .card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 16px; margin: 16px 0; }
+    .title { margin: 0 0 6px 0; }
+    .meta { color: #555; margin: 0 0 10px 0; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .links a { margin-right: 12px; }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title">Adi — Credit & Risk Analytics</h1>
+    <p class="meta">
+      Portfolio & Credit Strategy Analyst • Python / SQL • Building decisioning, pricing & portfolio simulation projects
+    </p>
+
+    <div>
+      <span class="pill">Credit Decisioning</span>
+      <span class="pill">Risk-Based Pricing</span>
+      <span class="pill">Portfolio Analytics</span>
+      <span class="pill">Machine Learning</span>
+    </div>
+
+    <div class="links" style="margin-top: 12px;">
+      <a href="https://github.com/YOURUSERNAME" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/" target="_blank">LinkedIn</a>
+      <a href="mailto:YOUREMAIL@gmail.com">Email</a>
+    </div>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3 class="title">Credit Decisioning Engine (PD + Pricing + Limit Assignment)</h3>
+    <p class="meta">End-to-end underwriting engine using LendingClub-style data</p>
+    <ul>
+      <li>PD model trained on origination features (no leakage)</li>
+      <li>Policy rules + decline reason codes</li>
+      <li>APR tiering + approved amount recommendation + backtesting</li>
+    </ul>
+    <div class="links">
+      <a href="https://github.com/YOURUSERNAME/credit-decisioning-engine" target="_blank">Repo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 class="title">Portfolio Backtesting Playground</h3>
+    <p class="meta">Acceptance rate, bad rate, and profit vs policy thresholds</p>
+    <ul>
+      <li>Cutoff optimisation charts</li>
+      <li>Expected loss (PD × LGD × EAD) and profit simulation</li>
+      <li>Segment monitoring by purpose / term / risk band</li>
+    </ul>
+    <div class="links">
+      <a href="#" target="_blank">Repo (coming soon)</a>
+    </div>
+  </div>
+
+  <p style="margin-top: 28px; color:#666;">
+    Last updated: <span id="date"></span>
+  </p>
+
+  <script>
+    document.getElementById("date").innerText = new Date().toISOString().slice(0,10);
+  </script>
+</body>
+</html>
