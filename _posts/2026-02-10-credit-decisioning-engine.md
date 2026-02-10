@@ -25,10 +25,12 @@ A modern decisioning flow that separates:
 
 ## Results (portfolio view)
 
-### Chart: default rate by predicted risk band
-This shows that the PD model meaningfully orders risk and provides a stable foundation for policy rules (approval cutoffs, APR tiers, and limits).
+### Observed default rate by predicted risk band
+This chart validates that the PD model meaningfully ranks risk across the
+population, providing a stable foundation for approval rules, pricing tiers,
+and limit assignment.
 
-![Default rate by predicted risk band](/assets/img/credit-engine-default-rate-by-band.png)
+![Observed default rate by predicted risk band](/assets/img/default_rate_by_risk_band.png)
 
 ### Insights
 - Default rates increase monotonically across PD bands, supporting **risk-segmented policies**
