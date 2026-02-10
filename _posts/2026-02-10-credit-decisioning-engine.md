@@ -30,7 +30,8 @@ This chart validates that the PD model meaningfully ranks risk across the
 population, providing a stable foundation for approval rules, pricing tiers,
 and limit assignment.
 
-![Observed default rate by predicted risk band](/assets/img/default_rate_by_risk_band.png)
+![Observed default rate by predicted risk band](/Portfolio/assets/img/default_rate_by_risk_band.png)
+
 
 ### Insights
 - Default rates increase monotonically across PD bands, supporting **risk-segmented policies**
