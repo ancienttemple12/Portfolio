@@ -3,7 +3,7 @@ layout: post
 title: "Credit Decisioning Engine (PD + Pricing + Limit Assignment)"
 ---
 
-## What this is
+## Credit Decisioning Engine (PD + Pricing + Limit Assignment)
 This project implements an end-to-end credit decisioning engine using
 LendingClub-style consumer loan data. The objective is to demonstrate how
 predicted default risk can be translated into practical lending decisions,
